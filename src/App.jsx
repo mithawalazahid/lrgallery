@@ -3,32 +3,16 @@ import { useState,useEffect } from 'react'
 import './App.css'
 
 function App() {
-
   const [form, setform] = useState({ phone: "" })
-
-
-
   const handleChange = (e) => {
     setform({ ...form, [e.target.name]: e.target.value })
   }
-
-  
-    
     const phone = form.phone;
-    const web = "https://wa.me/" + "+91"+phone
-    
-    
-    function searchURL() {
-
-      console.log(web)
-     alert("testing")
-  }
-    
-    
+    const web = "https://wa.me/" + "+91"+phone 
   return (
     <>
       
-     <h1>whatapp direct chat</h1>
+     <h1 className='text-gray-600'>whatapp direct chat</h1>
     <div className='gap'>
 
     </div>
