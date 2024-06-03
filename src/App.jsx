@@ -18,7 +18,7 @@ function App() {
       </div>
 
       <div className='flex justify-center gap-3'>
-      <input value={form.phone} onChange={handleChange} placeholder='Enter number' className='rounded-md  border border-green-500  p-4 py-1' type="tel" pattern="[0-9]" name='phone' id='phone' required />
+      <input value={form.phone} onChange={handleChange} placeholder='Enter number' className='rounded-md  border border-green-800  p-4 py-1' type="tel" pattern="[0-9]" name='phone' id='phone' required />
       <a className='text-green-700 font-bold ' href={web}>open</a>
       </div>
 
